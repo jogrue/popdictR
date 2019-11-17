@@ -53,6 +53,7 @@ usethis::use_data(gruendl_all_regex_terms, internal = FALSE, overwrite = TRUE)
 gruendl_terms <- gruendl_dictionary_complete %>%
   filter(wildcard != "glob") %>%
   filter(Include == 1) %>%
+  filter(Sub_Type != "direkte demokratie") %>%
   pull(Word)
 usethis::use_data(gruendl_terms, internal = FALSE, overwrite = TRUE)
 
@@ -60,6 +61,7 @@ usethis::use_data(gruendl_terms, internal = FALSE, overwrite = TRUE)
 gruendl_terms_media_only <- gruendl_dictionary_complete %>%
   filter(wildcard != "glob") %>%
   filter(Include == 1) %>%
+  filter(Sub_Type != "direkte demokratie") %>%
   filter(Source_Politician != 1) %>%
   pull(Word)
 usethis::use_data(gruendl_terms_media_only, internal = FALSE, overwrite = TRUE)
@@ -68,6 +70,7 @@ usethis::use_data(gruendl_terms_media_only, internal = FALSE, overwrite = TRUE)
 gruendl_terms_conflictive <- gruendl_dictionary_complete %>%
   filter(wildcard != "glob") %>%
   filter(Include == 1) %>%
+  filter(Sub_Type != "direkte demokratie") %>%
   filter(Type2 == "conflictive") %>%
   pull(Word)
 usethis::use_data(gruendl_terms_conflictive, internal = FALSE, overwrite = TRUE)
@@ -76,6 +79,7 @@ usethis::use_data(gruendl_terms_conflictive, internal = FALSE, overwrite = TRUE)
 gruendl_terms_conflictive_media_only <- gruendl_dictionary_complete %>%
   filter(wildcard != "glob") %>%
   filter(Include == 1) %>%
+  filter(Sub_Type != "direkte demokratie") %>%
   filter(Source_Politician != 1) %>%
   filter(Type2 == "conflictive") %>%
   pull(Word)
@@ -86,6 +90,7 @@ usethis::use_data(gruendl_terms_conflictive_media_only,
 gruendl_terms_advocative <- gruendl_dictionary_complete %>%
   filter(wildcard != "glob") %>%
   filter(Include == 1) %>%
+  filter(Sub_Type != "direkte demokratie") %>%
   filter(Type2 == "advocative") %>%
   pull(Word)
 usethis::use_data(gruendl_terms_advocative, internal = FALSE, overwrite = TRUE)
@@ -94,6 +99,7 @@ usethis::use_data(gruendl_terms_advocative, internal = FALSE, overwrite = TRUE)
 gruendl_terms_advocative_media_only <- gruendl_dictionary_complete %>%
   filter(wildcard != "glob") %>%
   filter(Include == 1) %>%
+  filter(Sub_Type != "direkte demokratie") %>%
   filter(Source_Politician != 1) %>%
   filter(Type2 == "advocative") %>%
   pull(Word)
