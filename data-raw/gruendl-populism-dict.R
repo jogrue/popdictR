@@ -35,7 +35,8 @@ rm(required_packages, pkg)
 
 ## Read ODS
 gruendl_dictionary_complete <-
-  read_ods("data-raw/gruendl-populism-dict.ods") %>%
+  # read_ods("data-raw/gruendl-populism-dict.ods") %>%
+  read_csv("data-raw/gruendl-populism-dict.csv") %>%
   filter(!(Word == "")) %>%
   filter(!is.na(Word)) %>%
   mutate(wildcard = stringr::str_replace_na(wildcard, replacement = "none"))
