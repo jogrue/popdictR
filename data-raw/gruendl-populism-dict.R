@@ -37,7 +37,8 @@ rm(required_packages, pkg)
 gruendl_dictionary_complete <-
   read_ods("data-raw/gruendl-populism-dict.ods") %>%
   filter(!(Word == "")) %>%
-  filter(!is.na(Word))
+  filter(!is.na(Word)) %>%
+  mutate(wildcard = stringr::str_replace_na(wildcard, replacement = "none"))
 
 ## Include full data set in package
 usethis::use_data(gruendl_dictionary_complete, internal = FALSE,
