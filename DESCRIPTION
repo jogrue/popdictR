@@ -1,11 +1,13 @@
 Package: popdictR
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Title: A package designed to measure populism in text with a German dictionary.
+Version: 0.1.1
+Author: Johann Gründl
+Maintainer: Johann Gründl <mail@johanngruendl.at>
+Description: With this package I bundled my populism dictionary for German
+    social media content. It includes the dictionary, all terms considered
+    during the development, and functions to easily apply the dictionary to
+    textual data.
 Depends: R (>= 2.10)
 License: CC0
 Encoding: UTF-8
