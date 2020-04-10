@@ -4,7 +4,9 @@
 \name{gruendl_terms_media_only}
 \alias{gruendl_terms_media_only}
 \title{Current terms in Gründl's populism dictionary for news media.}
-\format{A character vector}
+\format{
+A character vector
+}
 \usage{
 gruendl_terms_media_only
 }

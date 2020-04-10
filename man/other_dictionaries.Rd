@@ -4,7 +4,8 @@
 \name{other_dictionaries}
 \alias{other_dictionaries}
 \title{Existing populism dictionaries.}
-\format{A data frame with 56 rows and 6 variables:
+\format{
+A data frame with 56 rows and 6 variables:
 \describe{
   \item{pauwels-2011}{terms used by Pauwels (2011)}
   \item{rooduijn-2011-german}{German terms used by Rooduijn and Pauwels (2011)}
@@ -12,7 +13,8 @@
   \item{bonikowski-2016-american}{terms used by Bonikowski and Gidron (2016b)}
   \item{bonikowski-2016-european}{terms used by Bonikowski and Gidron (2016a)}
   \item{pauwels-2017}{terms used by Pauwels (2017)}
-}}
+}
+}
 \usage{
 other_dictionaries
 }

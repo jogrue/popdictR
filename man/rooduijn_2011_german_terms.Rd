@@ -4,7 +4,9 @@
 \name{rooduijn_2011_german_terms}
 \alias{rooduijn_2011_german_terms}
 \title{Rooduijn and Pauwels' (2011) dictionary terms.}
-\format{A character vector}
+\format{
+A character vector
+}
 \usage{
 rooduijn_2011_german_terms
 }

@@ -4,7 +4,9 @@
 \name{gruendl_terms}
 \alias{gruendl_terms}
 \title{Current terms in Gründl's populism dictionary.}
-\format{A character vector}
+\format{
+A character vector
+}
 \usage{
 gruendl_terms
 }

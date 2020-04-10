@@ -1,15 +1,17 @@
 Package: popdictR
 Type: Package
 Title: A package designed to measure populism in text with a German dictionary.
-Version: 0.1.1
+Version: 0.2.0
 Author: Johann Gründl
 Maintainer: Johann Gründl <mail@johanngruendl.at>
 Description: With this package I bundled my populism dictionary for German
     social media content. It includes the dictionary, all terms considered
     during the development, and functions to easily apply the dictionary to
     textual data.
+Imports:
+    utils
 Depends: R (>= 2.10)
 License: CC0
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0

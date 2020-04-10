@@ -4,7 +4,11 @@
 \name{pauwels_2017_terms}
 \alias{pauwels_2017_terms}
 \title{Pauwels' (2017) dictionary terms.}
-\format{A character vector}
+\format{
+A character vector
+
+A character vector
+}
 \usage{
 pauwels_2017_terms
 

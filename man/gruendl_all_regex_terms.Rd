@@ -4,7 +4,9 @@
 \name{gruendl_all_regex_terms}
 \alias{gruendl_all_regex_terms}
 \title{All regex terms by Gründl.}
-\format{A character vector}
+\format{
+A character vector
+}
 \usage{
 gruendl_all_regex_terms
 }

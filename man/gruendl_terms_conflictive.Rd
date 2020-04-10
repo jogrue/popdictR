@@ -4,7 +4,9 @@
 \name{gruendl_terms_conflictive}
 \alias{gruendl_terms_conflictive}
 \title{Current terms in Gründl's dictionary for conflictive populism.}
-\format{A character vector}
+\format{
+A character vector
+}
 \usage{
 gruendl_terms_conflictive
 }

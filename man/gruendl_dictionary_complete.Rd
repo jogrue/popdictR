@@ -4,7 +4,9 @@
 \name{gruendl_dictionary_complete}
 \alias{gruendl_dictionary_complete}
 \title{Complete dictionary dataset by Gründl.}
-\format{A data frame with 12738 rows and 29 variables.}
+\format{
+A data frame with 12738 rows and 29 variables.
+}
 \usage{
 gruendl_dictionary_complete
 }

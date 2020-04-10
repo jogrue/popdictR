@@ -4,7 +4,9 @@
 \name{gruendl_terms_conflictive_media_only}
 \alias{gruendl_terms_conflictive_media_only}
 \title{Current terms in Gründl's dictionary for conflictive populism in news media.}
-\format{A character vector}
+\format{
+A character vector
+}
 \usage{
 gruendl_terms_conflictive_media_only
 }

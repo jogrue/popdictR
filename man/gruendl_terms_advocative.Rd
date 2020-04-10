@@ -4,7 +4,9 @@
 \name{gruendl_terms_advocative}
 \alias{gruendl_terms_advocative}
 \title{Current terms in Gründl's dictionary for advocative populism.}
-\format{A character vector}
+\format{
+A character vector
+}
 \usage{
 gruendl_terms_advocative
 }
