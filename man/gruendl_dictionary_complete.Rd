@@ -5,7 +5,7 @@
 \alias{gruendl_dictionary_complete}
 \title{Complete dictionary dataset by Gründl.}
 \format{
-A data frame with 12738 rows and 29 variables.
+A data frame.
 }
 \usage{
 gruendl_dictionary_complete
@@ -15,5 +15,11 @@ A dataset containing all terms ever considered for inclusion in Gründl's
 German populism dictionary. This dataset also includes context information,
 further classification of words, etc. You should never have to load this
 dataset directly.
+}
+\references{
+Gründl, J. (2020). Populist ideas on social media: A dictionary-based
+measurement of populist communication. \emph{New Media & Society}. Advance
+online publication.
+\href{https://doi.org/10.1177/1461444820976970}{https://doi.org/10.1177/1461444820976970}
 }
 \keyword{datasets}

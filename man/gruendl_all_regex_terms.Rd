@@ -15,4 +15,10 @@ A character vector containing all the terms (excluding glob-style wildcards)
 ever considered for inclusion in Gründl's German populism dictionary. You
 should never have to load this vector directly.
 }
+\references{
+Gründl, J. (2020). Populist ideas on social media: A dictionary-based
+measurement of populist communication. \emph{New Media & Society}. Advance
+online publication.
+\href{https://doi.org/10.1177/1461444820976970}{https://doi.org/10.1177/1461444820976970}
+}
 \keyword{datasets}

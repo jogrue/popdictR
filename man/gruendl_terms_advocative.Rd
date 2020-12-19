@@ -13,6 +13,13 @@ gruendl_terms_advocative
 \description{
 A character vector containing all terms currently selected for inclusion in
 Gründl's German populism dictionary that indicate advocative (for the
-people) populist messages.
+people) populist messages. Warning: This version of the dictionary was never
+tested or validated.
+}
+\references{
+Gründl, J. (2020). Populist ideas on social media: A dictionary-based
+measurement of populist communication. \emph{New Media & Society}. Advance
+online publication.
+\href{https://doi.org/10.1177/1461444820976970}{https://doi.org/10.1177/1461444820976970}
 }
 \keyword{datasets}

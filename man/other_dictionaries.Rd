@@ -24,9 +24,13 @@ to load this dataset.
 }
 \references{
 Bonikowski, B., & Gidron, N. (2016a). Populism in legislative discourse: Evidence from the European Parliament, 1999–2004 [Working paper]. Retrieved from \href{https://scholar.harvard.edu/files/bonikowski/files/bonikowski_and_gidron_-_populist_claims-making_in_legislative_discourse.pdf}{https://scholar.harvard.edu/files/bonikowski/files/bonikowski_and_gidron_-_populist_claims-making_in_legislative_discourse.pdf}
+
 Bonikowski, B., & Gidron, N. (2016b). The Populist Style in American Politics: Presidential Campaign Discourse, 1952–1996. \emph{Social Forces}, 94(4), 1593–1621. \href{https://doi.org/10.1093/sf/sov120}{https://doi.org/10.1093/sf/sov120}
+
 Pauwels, T. (2011). Measuring populism: A quantitative text analysis of party literature in Belgium. \emph{Journal of Elections, Public Opinion and Parties}, 21(1), 97–119. \href{https://doi.org/10.1080/17457289.2011.539483}{https://doi.org/10.1080/17457289.2011.539483}
+
 Pauwels, T. (2017). Measuring populism: A review of current approaches. In R. Heinisch, C. Holtz-Bacha, & O. Mazzoleni (Eds.), \emph{Political populism: A handbook} (pp. 123–136). Baden-Baden: Nomos.
+
 Rooduijn, M., & Pauwels, T. (2011). Measuring populism: Comparing two methods of content analysis. \emph{West European Politics}, 34(6), 1272–1283. \href{https://doi.org/10.1080/01402382.2011.616665}{https://doi.org/10.1080/01402382.2011.616665}
 }
 \keyword{datasets}
