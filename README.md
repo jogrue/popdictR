@@ -90,8 +90,8 @@ summary
 The package includes the dictionary as published and worked well for my 
 particular use case (see example above). All functions are documented already.
 However, the package has not been tested extensively. Thus, I am glad for any 
-feedback or issues you encounter. A new version (1.0) is planned for the end of 
-March 2021. Some of the issues I plan on addressing:
+feedback or issues you encounter. A new version (1.0) was postponed and is now
+planned for the end of July 2021. Some of the issues I plan on addressing:
 
 * More thorough testing
 * Better documentation
