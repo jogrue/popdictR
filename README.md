@@ -90,7 +90,7 @@ summary
 Update [2024-10-23]: Currently, the package is not working with newer versions 
 of `quanteda`. It was developed using quanteda v2, so I would suggest trying 
 to downgrade `quanteda` to version 2.1.2 and test it again then. I am happy to 
-accept a Pull request, if someone is able to fix it.
+accept a Pull request if someone is able to fix it.
 
 The package includes the dictionary as published and worked well for my 
 particular use case (see example above). All functions are documented already.
@@ -99,7 +99,7 @@ feedback or issues you encounter.
 
 Unfortunately, I am not working in academia anymore and do not really have
 time to support or continue developing this package. These are some of the 
-things that could be futher improved:
+things that could be further improved:
 
 * More thorough testing
 * Better documentation
