@@ -87,11 +87,19 @@ summary
 
 ## Status
 
+Update [2024-10-23]: Currently, the package is not working with newer versions 
+of `quanteda`. It was developed using quanteda v2, so I would suggest trying 
+to downgrade `quanteda` to version 2.2.1 and test it again then. I am happy to 
+accept a Pull request, if someone is able to fix it.
+
 The package includes the dictionary as published and worked well for my 
 particular use case (see example above). All functions are documented already.
 However, the package has not been tested extensively. Thus, I am glad for any 
-feedback or issues you encounter. A new version (1.0) was postponed and is now
-planned for the end of July 2021. Some of the issues I plan on addressing:
+feedback or issues you encounter.
+
+Unfortunately, I am not working in academia anymore and do not really have
+time to support or continue developing this package. These are some of the 
+things that could be futher improved:
 
 * More thorough testing
 * Better documentation
